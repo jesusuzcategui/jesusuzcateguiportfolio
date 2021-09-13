@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Slidermain from "../components/UI/SlidermainComponent";
 
 class Homepage extends Component {
     render(){
         return (
-            <div>Hola home</div>
+            <div>
+                <Slidermain />
+            </div>
         );
     }
 }

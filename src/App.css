@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, p, strong, span {
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +41,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  width: 150px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
 }
