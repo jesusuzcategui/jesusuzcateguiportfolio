@@ -1,0 +1,58 @@
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.each-slide > div > .each-slide-container {
+    background-color: rgba(0,0,0,.5);
+    padding: 15px 30px;
+}
+
+.arrow-control {
+    padding: 15px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+
+.arrow-control:hover {
+    background-color: #BAD763;
+}
+
+.arrow-control span {
+    color: white;
+    font-size: 2rem;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.arrow-control-left {
+    left: 30px
+}
+
+.arrow-control-right {
+    right: 30px
+}
+
+
+
+.heading {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-ligth {
+    color: white;
+}
+
+.small-text {
+    color: white;
+}
